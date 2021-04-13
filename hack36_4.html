@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <title>hack36</title>
+    <link href="https://fonts.googleapis.com/css2?family=Train+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+    <style>
+        body{
+            background-color: rgb(227, 255, 255);
+        }
+        #navbar{
+            font-size: 30px;
+            
+        }
+        #navbar:hover{
+            color: rgb(0, 0, 0);
+            cursor: pointer;
+            /* border: 2px solid red; */
+        }
+        * {box-sizing: border-box}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+.registeration{
+    font-size: 30px;
+    font-family: 'Dela Gothic One', cursive;
+}
+#women{
+    font-size: 38px;
+    font-family: 'Train One', cursive;
+    color: seagreen;
+    
+}
+#butt{
+    background-color: black;
+    color: white;
+}
+#butt:hover{
+    background-color: red;
+    color: black;
+}
+
+    </style>
+</head>
+<body>
+    <header class="text-gray-600 body-font" id="home">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+          <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+            
+              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+            </svg>
+            <span class="ml-3 text-xl" id="women">#WOMEN_SAFETY</span>
+          </a>
+          <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+            <a href="#home" class="mr-5 hover:text-gray-900" id="navbar">Home</a>
+            <a href="#about" class="mr-5 hover:text-gray-900" id="navbar">About</a>
+            <a href="#sign" class="mr-5 hover:text-gray-900" id="navbar">Sign In</a>
+            <a href="#contactus" class="mr-5 hover:text-gray-900" id="navbar">Contact Us</a>
+          </nav>
+          <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0" id="butt"><a href="#registernow">REGISTER NOW!!</a>
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </button>
+        </div>
+      </header>
+      <br><br>
+
+
+
+      <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto">
+          <h1 class="text-3xl font-medium title-font text-gray-900 mb-12 text-center">Testimonials</h1>
+          <div class="flex flex-wrap -m-4">
+            <div class="p-4 md:w-1/2 w-full">
+              <div class="h-full bg-gray-100 p-8 rounded">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="block w-5 h-5 text-gray-400 mb-4" viewBox="0 0 975.036 975.036">
+                  <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
+                </svg>
+                <p class="leading-relaxed mb-6">“You may not always have a comfortable life, and you will not always be able to solve all of the world’s problems at once but don’t ever underestimate the importance you can have because history has shown us that courage can be contagious and hope can take on a life of its own.”</p>
+                <a class="inline-flex items-center">
+                  <img alt="testimonial" src="https://hollywoodlife.com/wp-content/uploads/2021/01/michelle-obama-celebrates-ap-embed.jpg" class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center">
+                  <span class="flex-grow flex flex-col pl-4">
+                    <span class="title-font font-medium text-gray-900">Michelle Obama</span>
+                    <span class="text-gray-500 text-sm">Former First Lady of USA</span>
+                  </span>
+                </a>
+              </div>
+            </div>
+            <div class="p-4 md:w-1/2 w-full">
+              <div class="h-full bg-gray-100 p-8 rounded">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="block w-5 h-5 text-gray-400 mb-4" viewBox="0 0 975.036 975.036">
+                  <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
+                </svg>
+                <p class="leading-relaxed mb-6">“People will say to me, ‘You’ve played so many strong women,’ and I’ll say, ‘Have you ever said to a man, ‘You’ve played so many strong men?’’ No! Because the expectation is men are varied. Why can’t we have that expectation about women?”</p>
+                <a class="inline-flex items-center">
+                  <img alt="testimonial" src="https://global-uploads.webflow.com/5e33a765cf951f99dc204f8b/5e81b3c8fea9a33a72de358a_meryl-streep.jpeg" class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center">
+                  <span class="flex-grow flex flex-col pl-4">
+                    <span class="title-font font-medium text-gray-900">Meryl Streep</span>
+                    <span class="text-gray-500 text-sm">Actress</span>
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- again a section of about -->
+
+      <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto flex flex-col">
+          <div class="lg:w-4/6 mx-auto">
+            <div class="rounded-lg h-64 overflow-hidden">
+              <img alt="content" class="object-cover object-center h-full w-full" src=https://www.meghnabordikar.com/wp-content/uploads/2019/06/women-empowerment-12-638.jpg>
+            </div>
+            <div class="flex flex-col sm:flex-row mt-10">
+              <div class="sm:w-1/3 text-center sm:pr-8 sm:py-8">
+                
+                <div class="flex flex-col items-center text-center justify-center">
+                  <h2 class="font-medium title-font mt-4 text-gray-900 text-lg" id="about">OUR MAIN MOTO</h2>
+                  <div class="w-12 h-1 bg-indigo-500 rounded mt-2 mb-4"></div>
+                  <p class="text-base">Here we register crime cases of every locality so as to create a safe zone for women and we enhance the stand for women in society by allowing them to come and act from front.</p>
+                </div>
+              </div>
+              <div class="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
+                <p class="leading-relaxed text-lg mb-4">How can Indian cities be made more secure for women to protect their right to freedom of movement and safety? This series will focus on violence in the public domain and the responses, strategies and campaigns to resist such violence and make urban spaces safer for women at all times of the day or night <br> <br>Despite women’s increased visibility in public spaces
+                    better education and work opportunities, 
+                    and changing social attitudes, women 
+                    continue to experience physical and
+                     emotional violence, both within their 
+                    homes and outside. 
+                    How does one address a crime as insidious
+                    damaging and invasive as this in ways that
+                    are positive, interesting and relevant?
+                    This is what Jagori, the Delhi-based 
+                    women’s training and resource centre, 
+                    had in mind when it asked documentary
+                    filmmaker Sehjo Singh to create 
+                    advocacy and communication material
+                    for its ongoing campaign on violence against women. 
+                    </p>
+                <!-- <a class="text-indigo-500 inline-flex items-center">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                  </svg>
+                </a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- now going to creat a form -->
+
+      <form action="action_page.php">
+        <div class="container">
+          <h1 class="registeration" id="registernow">REGISTER NOW!!!</h1>
+          <p class="para">Please fill in this form to create an account.</p>
+          <hr>
+      
+          <label for="email"><b>Email</b></label>
+          <input type="text" placeholder="Enter Email" name="email" id="email" required>
+      
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+      
+          <label for="psw-repeat"><b>Confirm Password</b></label>
+          <input type="password" placeholder="Confirm Password" name="psw-repeat" id="psw-repeat" required>
+          <hr>
+      
+          <p>By creating an account you agree to our <a href="#">Terms & Privacy*</a>.</p>
+          <button type="submit" class="registerbtn">Register</button>
+        </div>
+      
+        <div class="container signin">
+          <p>Already have an account? <a href="#sign">Sign in</a>.</p>
+        </div>
+      </form>
+
+
+      <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto flex flex-wrap items-center">
+          <div class="lg:w-3/5 md:w-1/2 md:pr-16 lg:pr-0 pr-0">
+            <h1 class="title-font font-medium text-3xl text-gray-900">YOUR SAFETY IS OUR PRIORITY!!!</h1>
+            <p class="leading-relaxed mt-4">We are always available in your help....</p>
+          </div>
+          <div class="lg:w-2/6 md:w-1/2 bg-gray-100 rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0">
+            <h2 class="text-gray-900 text-lg font-medium title-font mb-5" id="sign">Sign In</h2>
+            <div class="relative mb-4">
+                <label for="email" class="leading-7 text-sm text-gray-600">Email</label>
+                <input type="email" id="email" name="email" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+            </div>
+            <div class="relative mb-4">
+              <label for="password" class="leading-7 text-sm text-gray-600">Password</label>
+              <input type="#" id="password" name="password" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+            </div>
+            <button class="text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Sign In</button>
+            
+          </div>
+        </div>
+      </section>
+
+
+
+      <section class="text-gray-600 body-font relative">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-col text-center w-full mb-12">
+            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900" id="contactus">Contact Us</h1>
+            <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Feel free to Ask Anything....We will reach to you soon...</p>
+          </div>
+          <div class="lg:w-1/2 md:w-2/3 mx-auto">
+            <div class="flex flex-wrap -m-2">
+              <div class="p-2 w-1/2">
+                <div class="relative">
+                    <label for="name" class="leading-7 text-sm text-gray-600">Name</label>
+                  <input type="#" id="name" name="name" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                  
+                </div>
+              </div>
+              <div class="p-2 w-1/2">
+                <div class="relative">
+                  <label for="email" class="leading-7 text-sm text-gray-600">Email</label>
+                  <input type="email" id="email" name="email" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                </div>
+              </div>
+              <div class="p-2 w-full">
+                <div class="relative">
+                  <label for="message" class="leading-7 text-sm text-gray-600">Message</label>
+                  <textarea id="message" name="message" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+                </div>
+              </div>
+              <div class="p-2 w-full">
+                <button class="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Submit</button>
+              </div>
+              <div class="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
+                <a class="text-indigo-500">#womensafety@gmail.com</a>
+                <p class="leading-normal my-5">MNNIT ALLAHABAD
+                  <br>Teliarganj,Prayagraj
+                </p>
+                <span class="inline-flex">
+                  <a class="text-gray-500">
+                    <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                      <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                    </svg>
+                  </a>
+                  <a class="ml-4 text-gray-500">
+                    <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                      <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                    </svg>
+                  </a>
+                  <a class="ml-4 text-gray-500">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                      <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                      <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                    </svg>
+                  </a>
+                  <a class="ml-4 text-gray-500">
+                    <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                      <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                    </svg>
+                  </a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+
+      <footer class="text-gray-600 body-font">
+        <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+          <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+            
+              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+            </svg>
+            <span class="ml-3 text-xl" id="women">#WOMEN_SAFETY</span>
+          </a>
+        </div>
+      </footer>
+
+
+
+</body>
+</html>
